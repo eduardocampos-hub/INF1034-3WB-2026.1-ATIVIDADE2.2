@@ -2,7 +2,7 @@ import turtle
 from turtle import *
 from time import sleep
 t = Turtle()
-t.speed(0)
+t.speed(20)
 t.pu()
 t.goto(100,0)
 t.pd()
@@ -416,6 +416,104 @@ for _ in range(2):
     t.left(90)
     t.forward(500)
 
+t.fillcolor("yellow")
+t.begin_fill()
+t.left(90)
+t.fd(100)
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+t.end_fill()
+
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+
+t.fillcolor("red")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+t.fd(100)
+t.fillcolor("black")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+sleep(2)
+t.clear()
+
+#bandeira 12
+t.pu()
+t.goto(0,0)
+t.pd()
+
+t.right(90)
+for _ in range(2):
+    t.left(90)
+    t.forward(300)
+    t.left(90)
+    t.forward(500)
+
+t.fillcolor("dark blue")
+t.begin_fill()
+t.left(90)
+t.fd(100)
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+t.end_fill()
+
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+
+t.fillcolor("white")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+t.fd(100)
+t.fillcolor("red")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+sleep(2)
+t.clear()
+
+#bandeira 13
+t.pu()
+t.goto(0,0)
+t.pd()
+
+t.right(90)
+for _ in range(2):
+    t.left(90)
+    t.forward(300)
+    t.left(90)
+    t.forward(500)
+
 t.fillcolor("red")
 t.begin_fill()
 t.left(90)
@@ -425,5 +523,378 @@ t.fd(500)
 t.left(90)
 t.fd(100)
 t.end_fill()
+
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+
+t.fillcolor("green")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+t.fd(100)
+t.fillcolor("white")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+sleep(2)
+t.clear()
+
+#bandeira 14
+t.pu()
+t.goto(0,0)
+t.pd()
+
+t.right(90)
+for _ in range(2):
+    t.left(90)
+    t.forward(300)
+    t.left(90)
+    t.forward(500)
+
+t.fillcolor("red")
+t.begin_fill()
+t.left(90)
+t.fd(100)
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+t.end_fill()
+
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+
+t.fillcolor("dark blue")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+t.fd(100)
+t.fillcolor("white")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+sleep(2)
+t.clear()
+
+#bandeira 15
+t.pu()
+t.goto(0,0)
+t.pd()
+
+t.right(90)
+for _ in range(2):
+    t.left(90)
+    t.forward(300)
+    t.left(90)
+    t.forward(500)
+
+t.fillcolor("black")
+t.begin_fill()
+t.left(90)
+t.fd(100)
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+t.end_fill()
+
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+
+t.fillcolor("white")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+t.fd(100)
+t.fillcolor("red")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+sleep(2)
+t.clear()
+
+#bandeira 16
+t.pu()
+t.goto(0,0)
+t.pd()
+
+t.right(90)
+for _ in range(2):
+    t.left(90)
+    t.forward(300)
+    t.left(90)
+    t.forward(500)
+
+t.fillcolor("blue")
+t.begin_fill()
+t.left(90)
+t.fd(100)
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+t.end_fill()
+
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+
+t.fillcolor("yellow")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+t.fd(100)
+t.fillcolor("green")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+sleep(2)
+t.clear()
+
+#bandeira 17
+
+t.pu()
+t.goto(0,0)
+t.pd()
+
+t.right(90)
+for _ in range(2):
+    t.left(90)
+    t.forward(300)
+    t.left(90)
+    t.forward(500)
+
+t.fillcolor("white")
+t.begin_fill()
+t.left(90)
+t.fd(100)
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+t.end_fill()
+
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+
+t.fillcolor("black")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+t.fd(100)
+t.fillcolor("blue")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+sleep(2)
+t.clear()
+
+#bandeira 18
+t.pu()
+t.goto(0,0)
+t.pd()
+
+t.right(90)
+for _ in range(2):
+    t.left(90)
+    t.forward(300)
+    t.left(90)
+    t.forward(500)
+
+t.fillcolor("yellow")
+t.begin_fill()
+t.left(90)
+t.fd(100)
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+t.end_fill()
+
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+
+t.fillcolor("dark blue")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+t.fd(100)
+t.fillcolor("red")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+sleep(2)
+t.clear()
+
+#bandeira 19
+
+t.pu()
+t.goto(0,0)
+t.pd()
+
+t.right(90)
+for _ in range(2):
+    t.left(90)
+    t.forward(300)
+    t.left(90)
+    t.forward(500)
+
+t.fillcolor("yellow")
+t.begin_fill()
+t.left(90)
+t.fd(100)
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+t.end_fill()
+
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+
+t.fillcolor("green")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+t.fd(100)
+t.fillcolor("red")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+sleep(2)
+t.clear()
+
+#bandeira 20
+
+t.pu()
+t.goto(0,0)
+t.pd()
+
+t.right(90)
+for _ in range(2):
+    t.left(90)
+    t.forward(300)
+    t.left(90)
+    t.forward(500)
+
+t.fillcolor("red")
+t.begin_fill()
+t.left(90)
+t.fd(100)
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+t.end_fill()
+
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+
+t.fillcolor("white")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+t.fd(100)
+t.fillcolor("green")
+t.begin_fill()
+for _ in range(2):
+    t.fd(100)
+    t.left(90)
+    t.forward(500)
+    t.left(90)
+t.end_fill()
+
+sleep(2)
+t.clear()
 
 mainloop()
