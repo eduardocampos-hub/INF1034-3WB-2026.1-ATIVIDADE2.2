@@ -402,4 +402,28 @@ t.end_fill()
 
 sleep(2)
 t.clear()
+
+#bandeira 11
+
+t.pu()
+t.goto(0,0)
+t.pd()
+
+t.left(90)
+for _ in range(2):
+    t.left(90)
+    t.forward(300)
+    t.left(90)
+    t.forward(500)
+
+t.fillcolor("red")
+t.begin_fill()
+t.left(90)
+t.fd(100)
+t.left(90)
+t.fd(500)
+t.left(90)
+t.fd(100)
+t.end_fill()
+
 mainloop()
