@@ -39,6 +39,7 @@ t.pu()
 t.goto(0,0)
 t.pd()
 
+
 def bandeiras(color1, color2, color3):
     t.pu()
     t.goto(-100,100)
