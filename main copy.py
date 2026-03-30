@@ -2,7 +2,7 @@ import turtle
 from turtle import *
 from time import sleep
 t = Turtle()
-
+t.speed(10)
 t.pu()
 t.goto(100,0)
 t.pd()
@@ -208,140 +208,140 @@ bandeira_guine()
 def retangulo_horizontal(cor):
     t.fillcolor(cor)
     t.begin_fill()
+    t.right(90)
+    t.fd(100)
     t.left(90)
+    t.fd(500)
+    t.lt(90)
     t.fd(100)
     t.left(90)
     t.fd(500)
     t.left(90)
     t.fd(100)
+    t.lt(90)
     t.end_fill()
-    t.rt(180)
-    t.fd(100)
 
-def bandeira_alemanha():
+
+def bandeiraAlemanha():
+    t.pu()
+    t.goto(0,0)
+    t.pd()
     retangulo_horizontal("yellow")
     retangulo_horizontal("red")
     retangulo_horizontal("black")
     sleep(2)
     t.clear()
+t.right(90)
+bandeiraAlemanha()
 
-def bandeirash(color1,color2,color3):
+def bandeiraHolanda():
     t.pu()
     t.goto(0,0)
     t.pd()
-    
+    retangulo_horizontal("dark blue")
+    retangulo_horizontal("white")
+    retangulo_horizontal("red")
+    sleep(2)
+    t.clear()
+bandeiraHolanda()
+
+def bandeiraHungria():
+    t.pu()
+    t.goto(0,0)
+    t.pd()
+    retangulo_horizontal("red")
+    retangulo_horizontal("green")
+    retangulo_horizontal("white")
+    sleep(2)
+    t.clear()
+
+bandeiraHungria()
+
+def bandeiraRussia():
+    t.pu()
+    t.goto(0,0)
+    t.pd()
+    retangulo_horizontal("red")
+    retangulo_horizontal("dark blue")
+    retangulo_horizontal("white")
+    sleep(2)
+    t.clear()
+
+bandeiraRussia()
+
+def bandeiraYemen():
+    t.pu()
+    t.goto(0,0)
+    t.pd()
+    retangulo_horizontal("black")
+    retangulo_horizontal("white")
+    retangulo_horizontal("red")
+    sleep(2)
+    t.clear()
+
+bandeiraYemen()
+
+def bandeiraGabao():
+    t.pu()
+    t.goto(0,0)
+    t.pd()
+    retangulo_horizontal("blue")
+    retangulo_horizontal("yellow")
+    retangulo_horizontal("green")
+    sleep(2)
+    t.clear()
+
+bandeiraGabao()
+
+def bandeiraEstonia():
+    t.pu()
+    t.goto(0,0)
+    t.pd()
+    retangulo_horizontal("white")
+    retangulo_horizontal("black")
+    retangulo_horizontal("blue")
+    sleep(2)
+    t.clear()
+
+bandeiraEstonia()
+
+def bandeiraArmenia():
+    t.pu()
+    t.goto(0,0)
+    t.pd()
+    retangulo_horizontal("yellow")
+    retangulo_horizontal("dark blue")
+    retangulo_horizontal("red")
+    sleep(2)
+    t.clear()
+
+bandeiraArmenia()
+
+def bandeiraLithuania():
+    t.pu()
+    t.goto(0,0)
+    t.pd()
+    retangulo_horizontal("red")
+    retangulo_horizontal("green")
+    retangulo_horizontal("yellow")
+    sleep(2)
+    t.clear()
+
+bandeiraLithuania()
+
+def bandeiraBulgaria():
+    t.pu()
+    t.goto(0,0)
+    t.pd()
+    retangulo_horizontal("red")
+    retangulo_horizontal("white")
+    retangulo_horizontal("green")
+    sleep(2)
+    t.clear()
+
+bandeiraBulgaria()
 
 
-    for _ in range(2):
-        t.left(90)
-        t.forward(300)
-        t.left(90)
-        t.forward(500)
 
-    t.fillcolor(color1)
-    t.begin_fill()
-    t.left(90)
-    t.fd(100)
-    t.left(90)
-    t.fd(500)
-    t.left(90)
-    t.fd(100)
-    t.end_fill()
-
-    t.left(90)
-    t.fd(500)
-    t.left(90)
-    t.fd(100)
-
-    t.fillcolor(color2)
-    t.begin_fill()
-    for _ in range(2):
-        t.fd(100)
-        t.left(90)
-        t.forward(500)
-        t.left(90)
-    t.end_fill()
-
-    t.fd(100)
-    t.fillcolor(color3)
-    t.begin_fill()
-    for _ in range(2):
-        t.fd(100)
-        t.left(90)
-        t.forward(500)
-        t.left(90)
-    t.end_fill()
-    t.right(90)
-    return
-#bandeira 11
-
-t.left(90)
-bandeirash("yellow","red","black")
-
-sleep(2)
-t.clear()
-
-#bandeira 12
-
-bandeirash("dark blue","white","red")
-
-sleep(2)
-t.clear()
-
-#bandeira 13
-
-bandeirash("red","green","white")
-
-sleep(2)
-t.clear()
-
-#bandeira 14
-
-bandeirash("red","dark blue","white")
-
-sleep(2)
-t.clear()
-
-#bandeira 15
-
-bandeirash("black","white","red")
-
-sleep(2)
-t.clear()
-
-#bandeira 16
-
-bandeirash("blue","yellow","green")
-
-sleep(2)
-t.clear()
-
-#bandeira 17
-
-bandeirash("white","black","blue")
-
-sleep(2)
-t.clear()
-
-#bandeira 18
-
-bandeirash("yellow","dark blue","red")
-
-sleep(2)
-t.clear()
-
-#bandeira 19
-
-bandeirash("yellow","green","red")
-
-sleep(2)
-t.clear()
-
-#bandeira 20
-
-bandeirash("red","white","green")
-
-sleep(2)
-t.clear()
 
 mainloop()
